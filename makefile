@@ -1,5 +1,5 @@
-CC = gcc
-CFLAGS = -Wall -pedantic -std=c11
+CC = g++
+CFLAGS = -Wall -pedantic
 
 include:
-	$(CC) $(CFLAGS) -o lista_estudantes.out lista_estudantes.c
+	$(CC) $(CFLAGS) -o lista.out lista.cpp
