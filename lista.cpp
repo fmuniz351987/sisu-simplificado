@@ -43,7 +43,7 @@ public:
         current_node = head;
         while(current_node->next != NULL) {
             current_node = current_node->next;
-            std::cout << current_node->key << '\n';
+            current_node->print();
         }
         std::cout << '\n';
     }
