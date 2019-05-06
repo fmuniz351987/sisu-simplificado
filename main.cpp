@@ -2,6 +2,10 @@
 #include <sstream>
 #include <iomanip>
 
+#include "lista.h"
+#include "aluno.h"
+#include "curso.h"
+
 
 void ler_primeira_linha(int* n_cursos, int* n_alunos) {
     std::string linha;

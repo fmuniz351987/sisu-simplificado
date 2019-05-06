@@ -2,6 +2,8 @@
 #include <sstream>
 #include <iomanip>
 
+#pragma once
+// nao consegui separar o header file com template do arquivo cpp
 
 template <class T>
 class Node {
@@ -13,13 +15,11 @@ public:
         key = NULL;
         next = NULL;
     }
-
     Node(T *key_) {
         key = key_;
         next = NULL;
     }
 };
-
 
 template <class T> 
 class List {
@@ -154,4 +154,5 @@ public:
         }
         return false;
     }
+
 };
