@@ -1,10 +1,11 @@
 #include <iostream>
 #include <sstream>
 #include <iomanip>
+#include <cstdio>
 
-#include "lista.h"
-#include "aluno.h"
-#include "curso.h"
+#include "lista.hpp"
+#include "aluno.hpp"
+#include "curso.hpp"
 
 
 Curso::Curso() {
@@ -46,7 +47,7 @@ void Curso::ler() {
 
     std::getline(std::cin, nome);
     std::getline(std::cin, linha);
-    std::sscanf(linha.c_str(), "%d", &max_alunos);
+    sscanf(linha.c_str(), "%d", &max_alunos);
 }
 
 float Curso::nota_corte() {
