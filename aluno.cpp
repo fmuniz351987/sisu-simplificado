@@ -2,7 +2,7 @@
 #include <sstream>
 #include <iomanip>
 
-#include "aluno.h"
+#include "aluno.hpp"
 
 Aluno::Aluno() {
     nota = 0;

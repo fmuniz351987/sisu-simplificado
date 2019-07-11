@@ -2,9 +2,9 @@
 #include <sstream>
 #include <iomanip>
 
-#include "lista.h"
-#include "aluno.h"
-#include "curso.h"
+#include "lista.hpp"
+#include "aluno.hpp"
+#include "curso.hpp"
 
 
 void ler_primeira_linha(int* n_cursos, int* n_alunos) {
